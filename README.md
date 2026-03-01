@@ -23,15 +23,15 @@ https://www.figma.com/design/nCnI7jo5qEINojosYRH0AZ/SNH_project?node-id=0-1&t=sv
 ## 📦 Hướng dẫn cài đặt
 
 1. Clone dự án:
-    git clone https://github.com/VinhTran-code/vtc-smartnews.git
+    git clone https://github.com/VinhTran-code/vtc-smartnews.git.
     cd vtc-smartnews
 2. Cài đặt thư viện:
-    composer install
-    npm install
-    npm run build
+    composer install.
+    npm install.
+    npm run build.
 3. cấu hình database:
 
-    lấy file mẫu database ở trong thư mục _database
+    lấy file mẫu database ở trong thư mục _database.
 
 4. Cấu hình môi trường:
     Sao chép file .env.example thành .env:
