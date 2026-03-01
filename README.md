@@ -27,25 +27,27 @@ https://www.figma.com/design/nCnI7jo5qEINojosYRH0AZ/SNH_project?node-id=0-1&t=sv
     git clone https://github.com/VinhTran-code/vtc-smartnews.git
     cd vtc-smartnews
 3. Cài đặt thư viện:
-    composer install
+    ```bash
+   composer install
     npm install
     npm run build
-4. cấu hình database:
+5. cấu hình database:
 
     lấy file mẫu database ở trong thư mục _database.
 
-5. Cấu hình môi trường:
+6. Cấu hình môi trường:
     Sao chép file .env.example thành .env:
-        Bash
+   ``bash
         cp .env.example .env
     Tạo khóa ứng dụng:
-        Bash
+        ```bash
         php artisan key:generate
     Cấu hình Database trong file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 
     Dán API Key của bạn vào file .env:
         GEMINI_API_KEY=your_api_key_here
-6. khởi chạy:
+7. khởi chạy:
+     ```bash
     php artisan serve
 
 ## 👨‍💻 Tác giả
